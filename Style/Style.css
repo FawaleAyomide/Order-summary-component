@@ -13,9 +13,8 @@ body{
     min-height: 100vh;
     background-image: url(../images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
-    background-position: top center, 50%, 50% !important;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
 }
 
 .container{
@@ -28,7 +27,7 @@ body{
     padding: 1rem;
     padding-bottom: 5rem;
     border-radius: 1rem;
-    width: 356px;
+    max-width: 400px;
     height: 500px;
 }
 .container > .Img-1{
@@ -38,7 +37,7 @@ body{
     display: flex;
     margin-top: -0.7rem;
 }
-h2{
+h1{
     color: hsl(223, 47%, 23%);
     margin: 2rem 0 1rem 0;
     font-weight: 900;
