@@ -27,7 +27,7 @@ body{
     padding: 1rem;
     padding-bottom: 5rem;
     border-radius: 1rem;
-    max-width: 400px;
+    width: 375px;
     height: 500px;
 }
 .container > .Img-1{
@@ -90,15 +90,15 @@ span{
 }
 
 /* media query */
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .container{
         padding: 1rem;
         padding-bottom: 3rem;
-        width: 350px;
+        max-width: 400px;
 
     }
     .container > .Img-1{
         width: 350px;
         height: 200px;
     }
-} */
+}
