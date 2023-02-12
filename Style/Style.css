@@ -90,12 +90,11 @@ span{
 }
 
 /* media query */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .container{
         padding: 1rem;
         padding-bottom: 3rem;
         width: 355px;
-        height: 400px;
     }
     .container > .Img-1{
         width: 350px;
