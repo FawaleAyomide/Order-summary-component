@@ -97,14 +97,14 @@ span{
     }
     .container{
         padding: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 3.5rem;
         width: 310px;
         height: 550px;
 
     }
     .container > .Img-1{
         width: 308px;
-        height: 220px !important;
+        height: 200px !important;
     }
     .plan{
         width: 16.5rem;
