@@ -91,9 +91,12 @@ span{
 
 /* media query */
 @media screen and (max-width: 500px) {
+    body{
+       background-image: url(../images/pattern-background-mobile.svg);
+      }
     .container{
         padding: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
         width: 355px;
     }
     .container > .Img-1{
